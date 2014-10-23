@@ -1,0 +1,6 @@
+[submodule "docker-usage/mongos"]
+	path = docker-usage/mongos
+	url = https://github.com/changyy/mongos2.6.5-ubuntu14.04.git
+[submodule "docker-usage/mongod"]
+	path = docker-usage/mongod
+	url = https://github.com/changyy/mongod2.6.5-ubuntu14.04.git
