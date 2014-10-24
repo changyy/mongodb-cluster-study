@@ -18,3 +18,5 @@ rs1_part3_ip=`sudo docker inspect --format '{{.NetworkSettings.IPAddress}}' rs1_
 rs1_part3_host_port=`sudo docker inspect rs1_part3 | grep "HostPort" | uniq | awk -F'"' '{print $4}'`
 echo "IP: " ${rs1_part3_ip}
 echo "Port: " ${rs1_part3_host_port}
+
+echo "sudo nsenter --target PID_NUMBER --mount --uts --ipc --net --pid"
